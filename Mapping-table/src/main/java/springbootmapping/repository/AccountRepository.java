@@ -10,6 +10,7 @@ import springbootmapping.model.Account;
 @Repository
 public interface AccountRepository extends JpaRepository<Account, Long>{
 
-	List<Account> findByOrderByIdDesc();
+         	List<Account> findByOrderByIdDesc();
+
 
 }
